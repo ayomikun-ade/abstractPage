@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;700&display=swap");
+
+:root {
+  --Black: #000000;
+  --blue: #4c5fd5;
+  --paleblue: #dadbf1;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-size: 17px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  margin-right: 5px;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+h3 {
+  display: inline;
+}
+h3 span {
+  font-weight: 200;
+}
+
+.submit {
+  color: var(--white);
+  background-color: #1b1b1b;
+  padding: 5px 10px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+}
+
+.signin {
+  background-color: #4c5fd5;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Archivo", sans-serif;
+  margin-left: 7px;
+}
+
+.top {
+  background-color: var(--paleblue);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.top h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.top input {
+  padding: 5px 20px;
+  width: 450px;
+  border: none;
+  font-family: "Archivo";
+  font-size: 16px;
+}
+.top input:focus {
+  outline: none;
+}
+
+.top p {
+  outline: black solid 1px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+}
+/* .top p:focus {
+  border: var(--blue) solid 0.01em;
+} */
+
+.top .arrow {
+  border: none;
+  background-color: white;
+}
+.top .arrow ion-icon {
+  width: 20px;
+  height: 40px;
+}
+.top .arrow ion-icon:hover {
+  cursor: pointer;
+  color: #4c5fd5;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 80px;
+  padding: 0 70px;
+  font-family: "Archivo";
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row .text {
+  padding-right: 30px;
+  padding-bottom: 20px;
+  line-height: 1.2rem;
+}
+
+.row div > ion-icon {
+  padding-right: 20px;
+  width: 60px;
+  height: 50px;
+}
+
+ion-icon.branch {
+  color: #da8f8f;
+}
+ion-icon.people {
+  color: rgb(49, 49, 49);
+}
+ion-icon.puzzle {
+  color: #9699d6;
+}
+ion-icon.cash {
+  color: green;
+}
+ion-icon.key {
+  color: goldenrod;
+}
+ion-icon.chat {
+  color: #7c5a2d;
+}
+
+.row h4 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18.8px;
+}
+
+.row span {
+  display: flex;
+  align-items: center;
+  color: #4c5fd5;
+  margin-top: 10px;
+}
+
+.row span ion-icon {
+  width: 50px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  /* display: flex;
+  flex-direction: row; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 30px 40px;
+}
+
+footer ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer ul li {
+  padding: 2px 0px;
+  font-weight: 200;
+}
+
+footer h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+footer span {
+  font-size: 18px;
+}
